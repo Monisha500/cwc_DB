@@ -1,17 +1,17 @@
 <?php 
 	session_start();
-	$db = mysqli_connect('localhost', 'root', '', 'fix');
+	$db = mysqli_connect('localhost', 'root', '', 'cricket2');
 
 	// initialize variables
-	$team1 = "";
-	$team2 = "";
-	$location = "";
+	$user = "";
+	$email = "";
+	$pass = "";
 	//$id = 0;
 	$update = false;
 
 	if (isset($_POST['save'])) {
 
-		$type = $_POST['typ'];
+		$type = $_POST['username'];
 		$team1 = $_POST['teamone'];
 		$team2 = $_POST['teamtwo'];
 		$location = $_POST['loc'];

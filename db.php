@@ -2,7 +2,7 @@
 
 
 
-$con = mysqli_connect("localhost","root","","fix");
+$con = mysqli_connect("localhost","root","","cricket2");
 
 if (mysqli_connect_errno())
   {
